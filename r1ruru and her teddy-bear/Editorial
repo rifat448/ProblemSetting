@@ -1,4 +1,10 @@
 
-According to the problem statement, r1ruru's teddy-bear always makes circle using the given array's elements (Element's order remain same). So, first element and last element of the given array will be adjacent too. Then find out the difference of the adjacent elements(here |a[i]-a[i+1]|, |x| denotes absolute value of x). 
+According to the problem statement, r1ruru's teddy-bear always makes circle using the given array's elements (Element's order remain same).
 
-If you've done the above part, idea is very simple now. Just find out the minimums of all subarrays of length K using Sliding Window Algorithm in O(n). Then just print out the maximum value of the minimums.
+So, first element and last element of the given array will be adjacent too.Then find out the difference of the adjacent elements(here 
+
+|a[i]-a[i+1]|, |x| denotes absolute value of x). 
+
+If you've done the above part, idea is very simple now. Just find out the minimums of all subarrays of length K using Sliding Window 
+
+Algorithm in O(n). Then just print out the maximum value of the minimums.
